@@ -14,9 +14,10 @@ public class CalculadorNotas {
      * @return promedio de las tres notas
      */
 
-    // Las tres evaluaciones tienen la misma ponderación.
+
 
     public double calcularPromedio(double nota1, double nota2, double nota3) {
+        // Las tres evaluaciones tienen la misma ponderación.
         return  (nota1 + nota2 + nota3) / 3.0;
     }
 
