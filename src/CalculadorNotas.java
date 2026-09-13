@@ -5,12 +5,12 @@
 public class CalculadorNotas {
 
     /**
-     * Calcula el promedio de tres evaluaciones.
+     * Calcula la media aritmética a partir de tres calificaciones individuales.
      *
-     * @param nota1 primera nota
-     * @param nota2 segunda nota
-     * @param nota3 tercera nota
-     * @return promedio de las tres notas
+     * @param nota1 primera calificación parcial obtenida
+     * @param nota2 segunda calificación parcial obtenida
+     * @param nota3 tercera calificación parcial obtenida
+     * @return el promedio ponderado en partes iguales de las tres notas
      */
 
 
@@ -21,15 +21,16 @@ public class CalculadorNotas {
     }
 
     /**
+     * Determina si el promedio académico alcanzado cumple con el estándar de aprobación.
      *
-     * @param promedio calcula el promedio de las 3 notas
-     * @return si el promedio es mayor o igual a 4.0 sera true
+     * @param promedio promedio de notas obtenido por el estudiante
+     * @return true si el promedio alcanza o supera la nota mínima de aprobación; false en caso contrario
      */
 
     public boolean estaAprobado(double promedio){
         /*
-        * La escala utilizada considera 4.0
-        *  como nota minima de aprobacion
+         * Según la escala académica estándar empleada, la nota 4.0 representa
+         * el umbral mínimo exigido (60% de exigencia) para dar por aprobada la asignatura.
          */
 
         return promedio  >= 4.0;
