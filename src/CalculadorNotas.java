@@ -1,7 +1,6 @@
-
 /**
- * Gestiona operaciones básicas relacionadas con
- * las notas de un estudiante.
+ * Proporciona utilidades para el procesamiento, cálculo de promedios
+ * y evaluación del rendimiento académico de las calificaciones de un estudiante.
  */
 public class CalculadorNotas {
 
